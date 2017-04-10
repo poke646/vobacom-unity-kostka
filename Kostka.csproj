@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{975B7E6C-D0DA-0332-CE97-7E7449FA0279}</ProjectGuid>
+    <ProjectGuid>{54B0456C-BECF-E43C-37E7-E1488D7598A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -70,9 +67,6 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
     </Reference>
@@ -84,16 +78,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BaseGameObject.cs" />
-    <Compile Include="Assets\Finish.cs" />
-    <Compile Include="Assets\FollowCamera.cs" />
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\Item.cs" />
-    <Compile Include="Assets\Menu.cs" />
-    <Compile Include="Assets\PlatformController.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
-    <Compile Include="Assets\TouchController.cs" />
-    <Compile Include="Assets\TransitionController.cs" />
+    <Compile Include="Assets\Scripts\BaseGameObject.cs" />
+    <Compile Include="Assets\Scripts\Finish.cs" />
+    <Compile Include="Assets\Scripts\FollowCamera.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\PlatformController.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\TouchController.cs" />
+    <Compile Include="Assets\Scripts\TransitionController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Ext\TextMesh Pro\Fonts\Anton OFL.txt" />

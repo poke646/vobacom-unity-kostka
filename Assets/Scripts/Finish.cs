@@ -6,7 +6,6 @@ namespace Assets
 {
     public class Finish : BaseGameObject
     {
-       // [HideInInspector]
         int numGoldLeft;
         public int NumGoldLeft
         {

@@ -18,7 +18,6 @@ public class Item : MonoBehaviour {
         }
     }
 
-    // Use this for initialization
     void Start () {
 		if (gameObject.CompareTag("Gold"))
         {
@@ -26,10 +25,5 @@ public class Item : MonoBehaviour {
             if (go != null)
                 go.GetComponent<Finish>().NumGoldLeft++;
         }
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }

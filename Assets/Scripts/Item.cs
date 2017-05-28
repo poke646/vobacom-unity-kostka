@@ -9,7 +9,6 @@ public class Item : MonoBehaviour {
     {
         if (other.CompareTag("Player"))
         {
-            PlayerController player = other.GetComponent<PlayerController>();
             GameObject go = GameObject.Find("Finish");
             if (go != null)
                 go.GetComponent<Finish>().NumGoldLeft--;
